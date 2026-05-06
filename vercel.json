@@ -1,15 +1,16 @@
 {
   "version": 2,
-  "buildCommand": "cd frontend && npm run build",
+  "buildCommand": "cd frontend && CI=false npm run build",
   "outputDirectory": "frontend/build",
   "env": {
-    "REACT_APP_API_URL": "@react_app_api_url",
+    "REACT_APP_API_URL": "https://portfolio-qhse-api.onrender.com/api",
     "REACT_APP_ENV": "production",
     "REACT_APP_SITE_NAME": "QHSEPRO",
     "REACT_APP_SITE_TITLE": "QHSEPRO - Expert QHSE",
     "REACT_APP_PRIMARY_COLOR": "#ff6b35",
     "REACT_APP_DARK_COLOR": "#1a2332",
-    "REACT_APP_DEBUG": "false"
+    "REACT_APP_DEBUG": "false",
+    "CI": "false"
   },
   "routes": [
     {
