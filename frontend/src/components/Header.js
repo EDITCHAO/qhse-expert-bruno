@@ -1,9 +1,8 @@
-import { Link, useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { useState } from 'react';
-import authAPI from '../api/auth';
 import './Header.css';
 
-const Header = ({ isAdmin = false }) => {
+const Header = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const toggleMobileMenu = () => {
@@ -47,10 +46,10 @@ const Header = ({ isAdmin = false }) => {
             </a>
           </nav>
 
-          <button className="admin-btn" onClick={() => navigate('/admin/login')}>
+          <Link to="/admin/login" className="admin-btn">
             <i className="fas fa-user-circle"></i>
             <span>Admin</span>
-          </button>
+          </Link>
 
           <button className="mobile-menu-btn" onClick={toggleMobileMenu}>
             <i className={`fas ${mobileMenuOpen ? 'fa-times' : 'fa-bars'}`}></i>
