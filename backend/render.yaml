@@ -1,0 +1,53 @@
+services:
+  - type: web
+    name: portfolio-qhse-api
+    runtime: php
+    plan: free
+    buildCommand: composer install --no-dev --optimize-autoloader && php artisan migrate --force
+    startCommand: php -S 0.0.0.0:$PORT public/index.php
+    envVars:
+      - key: APP_ENV
+        value: production
+      - key: APP_DEBUG
+        value: false
+      - key: APP_KEY
+        scope: run
+      - key: APP_URL
+        value: https://portfolio-qhse-api.onrender.com
+      - key: DB_CONNECTION
+        value: pgsql
+      - key: DB_HOST
+        fromDatabase:
+          name: portfolio-db
+          property: host
+      - key: DB_PORT
+        fromDatabase:
+          name: portfolio-db
+          property: port
+      - key: DB_DATABASE
+        fromDatabase:
+          name: portfolio-db
+          property: database
+      - key: DB_USERNAME
+        fromDatabase:
+          name: portfolio-db
+          property: user
+      - key: DB_PASSWORD
+        fromDatabase:
+          name: portfolio-db
+          property: password
+      - key: DB_SSLMODE
+        value: require
+      - key: ADMIN_USERNAME
+        scope: run
+      - key: ADMIN_PASSWORD
+        scope: run
+      - key: CORS_ALLOWED_ORIGINS
+        value: https://portfolio-qhse.vercel.app
+
+databases:
+  - name: portfolio-db
+    databaseName: portfolio
+    user: postgres
+    plan: free
+    region: oregon
