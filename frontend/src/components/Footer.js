@@ -51,10 +51,10 @@ const Footer = () => {
               Services
             </h4>
             <ul className="footer-links">
-              <li><a href="#"><i className="fas fa-chevron-right"></i>Audit QHSE</a></li>
-              <li><a href="#"><i className="fas fa-chevron-right"></i>Conformité</a></li>
-              <li><a href="#"><i className="fas fa-chevron-right"></i>Formation</a></li>
-              <li><a href="#"><i className="fas fa-chevron-right"></i>Certification</a></li>
+              <li><a href="#services"><i className="fas fa-chevron-right"></i>Audit QHSE</a></li>
+              <li><a href="#services"><i className="fas fa-chevron-right"></i>Conformité</a></li>
+              <li><a href="#services"><i className="fas fa-chevron-right"></i>Formation</a></li>
+              <li><a href="#services"><i className="fas fa-chevron-right"></i>Certification</a></li>
             </ul>
           </div>
 

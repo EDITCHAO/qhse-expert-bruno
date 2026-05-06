@@ -1,9 +1,6 @@
-import { useNavigate } from 'react-router-dom';
 import './Hero.css';
 
 const Hero = () => {
-  const navigate = useNavigate();
-
   const handleContactClick = () => {
     const contactForm = document.getElementById('contact-form');
     if (contactForm) {

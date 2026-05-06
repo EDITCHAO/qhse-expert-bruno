@@ -4,13 +4,7 @@ import authAPI from '../api/auth';
 import './Header.css';
 
 const Header = ({ isAdmin = false }) => {
-  const navigate = useNavigate();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-
-  const handleLogout = () => {
-    authAPI.logout();
-    navigate('/');
-  };
 
   const toggleMobileMenu = () => {
     setMobileMenuOpen(!mobileMenuOpen);
