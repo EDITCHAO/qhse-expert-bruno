@@ -1,0 +1,191 @@
+================================================================================
+                    NETTOYAGE PHP/LARAVEL - PRÊT
+================================================================================
+
+PROJECT: Portfolio QHSE - React/Next.js Only
+STATUS: ✅ PRÊT À NETTOYER
+DATE: 2024
+VERSION: 1.0.0
+
+================================================================================
+                        OBJECTIF
+================================================================================
+
+Supprimer tous les fichiers PHP/Laravel et garder seulement React/Next.js
+
+AVANT:
+- ❌ PHP/Laravel
+- ❌ Fichiers PHP
+- ❌ Dossiers Laravel
+- ✅ React
+- ✅ Next.js
+
+APRÈS:
+- ✅ React
+- ✅ Next.js
+- ✅ Backend Node.js
+- ❌ Aucun PHP
+
+================================================================================
+                        DOSSIERS À SUPPRIMER
+================================================================================
+
+❌ app/                    - Code PHP Laravel
+❌ config/                 - Configuration Laravel
+❌ database/               - Migrations Laravel
+❌ resources/              - Vues Laravel
+❌ routes/                 - Routes Laravel
+❌ storage/                - Stockage Laravel
+❌ tests/                  - Tests Laravel
+❌ bootstrap/              - Bootstrap Laravel
+❌ vendor/                 - Dépendances PHP
+❌ admin/                  - Admin Laravel
+❌ api/                    - API Laravel
+❌ backend/                - Backend Laravel
+
+================================================================================
+                        FICHIERS À SUPPRIMER
+================================================================================
+
+❌ artisan                 - CLI Laravel
+❌ composer.json           - Dépendances PHP
+❌ composer.lock           - Lock file PHP
+❌ phpunit.xml             - Tests PHP
+❌ phpunit.pgsql.xml       - Tests PHP
+❌ server.php              - Serveur PHP
+❌ server.js               - Ancien serveur
+❌ deploy.bat              - Déploiement PHP
+❌ deploy.sh               - Déploiement PHP
+❌ Dockerfile              - Docker PHP
+❌ docker-compose.yml      - Docker Compose
+❌ render.yaml             - Render PHP
+
+================================================================================
+                        DOSSIERS À GARDER
+================================================================================
+
+✅ frontend/               - React
+✅ frontend-nextjs/        - Next.js
+✅ public/                 - Fichiers statiques
+✅ .git/                   - Git
+✅ .vscode/                - VS Code
+✅ node_modules/           - Dépendances Node.js
+
+================================================================================
+                        FICHIERS À GARDER
+================================================================================
+
+✅ backend-server.js       - Backend Node.js
+✅ package.json            - Dépendances Node.js
+✅ package-lock.json       - Lock file Node.js
+✅ .env                    - Variables d'environnement
+✅ .gitignore              - Git ignore
+✅ README.md               - Documentation
+✅ [Documentation]         - Guides
+
+================================================================================
+                        OPTIONS DE NETTOYAGE
+================================================================================
+
+OPTION 1: Script Automatisé (Recommandé)
+→ Double-cliquez sur: cleanup-php.bat
+
+OPTION 2: Commandes Manuelles
+→ Lire: CLEANUP_PHP.md
+→ Exécuter les commandes
+
+OPTION 3: Suppression Manuelle
+→ Supprimer les dossiers/fichiers un par un
+
+================================================================================
+                        COMMANDES RAPIDES
+================================================================================
+
+COPIER-COLLER DANS CMD/POWERSHELL:
+
+rmdir /s /q app
+rmdir /s /q config
+rmdir /s /q database
+rmdir /s /q resources
+rmdir /s /q routes
+rmdir /s /q storage
+rmdir /s /q tests
+rmdir /s /q bootstrap
+rmdir /s /q vendor
+rmdir /s /q admin
+rmdir /s /q api
+rmdir /s /q backend
+
+del artisan
+del composer.json
+del composer.lock
+del phpunit.xml
+del phpunit.pgsql.xml
+del server.php
+del server.js
+del deploy.bat
+del deploy.sh
+del Dockerfile
+del docker-compose.yml
+del render.yaml
+
+================================================================================
+                        RÉSULTAT FINAL
+================================================================================
+
+APRÈS NETTOYAGE:
+
+bruno-hse/
+├── frontend/               ✅ React
+├── frontend-nextjs/        ✅ Next.js
+├── backend-server.js       ✅ Backend Node.js
+├── package.json            ✅ Dépendances Node.js
+├── .env                    ✅ Variables
+├── .gitignore              ✅ Git
+├── public/                 ✅ Fichiers statiques
+├── node_modules/           ✅ Dépendances
+├── .git/                   ✅ Git
+└── [Documentation]         ✅ Guides
+
+================================================================================
+                        DOCUMENTATION
+================================================================================
+
+POUR NETTOYER:
+→ CLEANUP_PHP.md
+
+POUR VÉRIFIER:
+→ Lister les dossiers restants
+
+POUR POUSSER:
+→ git add .
+→ git commit -m "Remove PHP/Laravel - Keep only React/Next.js"
+→ git push origin main
+
+================================================================================
+                        PROCHAINES ÉTAPES
+================================================================================
+
+1. MAINTENANT: Exécuter le nettoyage
+2. APRÈS: Vérifier que seul React/Next.js reste
+3. PUIS: Pousser sur GitHub
+4. ENFIN: Déployer sur Vercel
+
+================================================================================
+                        ATTENTION
+================================================================================
+
+⚠️ AVANT DE NETTOYER:
+- Assurez-vous que tout est commité sur GitHub
+- Faites une sauvegarde si nécessaire
+- Vérifiez que vous êtes dans le bon dossier
+
+================================================================================
+
+Status: ✅ PRÊT À NETTOYER
+Date: 2024
+Version: 1.0.0
+
+EXÉCUTEZ LE NETTOYAGE MAINTENANT ! 🧹
+
+================================================================================
