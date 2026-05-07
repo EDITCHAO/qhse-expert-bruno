@@ -118,7 +118,7 @@ Centralisez toutes les données du site:
 import siteConfig from '../config/siteConfig';
 
 // Accédez aux données
-siteConfig.profile.name // "Atayi BRUNO"
+siteConfig.profile.name // "Etey BRUNO"
 siteConfig.statistics // Array de statistiques
 siteConfig.certifications // Array de certifications
 ```

@@ -82,7 +82,7 @@ import profileImage from '../assets/images/profile.jpg';
 const profiles = [
   {
     id: 1,
-    name: 'Atayi BRUNO',
+    name: 'Etey BRUNO',
     title: 'Responsable QHSE spécialisé en génie civil',
     description: 'Routes, Bâtiments & Ouvrages d\'art. Plus de 12 ans d\'expérience au service de la sécurité et de l\'excellence opérationnelle.',
     image: profileImage,
@@ -205,7 +205,7 @@ const About = () => {
             />
           </div>
           <div className="about-text">
-            <h3 className="profile-name">Atayi BRUNO</h3>
+            <h3 className="profile-name">Etey BRUNO</h3>
             <p className="profile-description">
               Responsable QHSE spécialisé en génie civil — Routes, Bâtiments & Ouvrages d'art. Plus de 12 ans d'expérience au service de la sécurité et de l'excellence opérationnelle.
             </p>

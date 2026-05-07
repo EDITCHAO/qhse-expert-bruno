@@ -223,7 +223,7 @@ frontend/
 ```javascript
 // src/config/siteConfig.js
 profile: {
-  name: 'Atayi BRUNO',
+  name: 'Etey BRUNO',
   image: 'https://via.placeholder.com/...'
 }
 ```

@@ -1,0 +1,125 @@
+================================================================================
+                    SERVEURS EN COURS D'EXÉCUTION
+================================================================================
+
+✅ BACKEND - ACTIF
+
+  URL      : http://localhost:8000
+  API      : http://localhost:8000/api
+  Commande : npm run dev
+  Serveur  : Node.js + PHP
+  Status   : ✅ EN COURS D'EXÉCUTION
+
+  Logs :
+  ✅ Serveur API démarré sur http://localhost:8000
+  ✅ PHP 8.4.6 Development Server (http://localhost:8000) started
+
+================================================================================
+
+⏳ FRONTEND - INSTALLATION EN COURS
+
+  URL      : http://localhost:3000
+  Commande : npm start
+  Serveur  : React
+  Status   : ⏳ INSTALLATION EN COURS
+
+  Prochaines étapes :
+  1. Attendez que npm install se termine
+  2. Le serveur React démarrera automatiquement
+  3. Allez sur http://localhost:3000
+
+================================================================================
+
+🔧 CHANGEMENTS EFFECTUÉS
+
+✅ Suppression de php artisan serve
+   - Remplacé par un serveur Node.js
+   - Fichier : server.js
+   - Utilise : php -S localhost:8000 -t public
+
+✅ Nouveau Package.json
+   - npm run dev → node server.js
+   - npm start → node server.js
+
+✅ Serveur Node.js (server.js)
+   - Démarre le serveur PHP intégré
+   - Gère l'arrêt gracieux (Ctrl+C)
+
+================================================================================
+
+📝 COMMANDES
+
+BACKEND :
+  npm run dev       # Démarrer le serveur
+  npm start         # Alias
+  npm run build     # Compiler
+  npm run migrate   # Migrations
+  npm run test      # Tests
+
+FRONTEND :
+  npm start         # Démarrer le serveur
+  npm run build     # Compiler
+  npm test          # Tests
+
+================================================================================
+
+🌐 ACCÈS
+
+Backend  : http://localhost:8000
+Frontend : http://localhost:3000 (bientôt)
+API      : http://localhost:8000/api
+
+================================================================================
+
+🧪 TESTER LE BACKEND
+
+Créer un contact :
+  curl -X POST http://localhost:8000/api/contacts \
+    -H "Content-Type: application/json" \
+    -d '{
+      "nom": "Test",
+      "email": "test@example.com",
+      "numero": "1234567890",
+      "sujet": "Test",
+      "message": "Test message"
+    }'
+
+Connexion admin :
+  curl -X POST http://localhost:8000/api/auth/login \
+    -H "Content-Type: application/json" \
+    -d '{
+      "username": "admin",
+      "password": "password123"
+    }'
+
+================================================================================
+
+🛑 ARRÊTER LES SERVEURS
+
+Appuyez sur Ctrl+C dans chaque terminal.
+
+================================================================================
+
+📊 PROCESSUS EN COURS
+
+Terminal 1 (Backend) : npm run dev
+  └─ node server.js
+     └─ php -S localhost:8000 -t public
+     └─ ✅ EN COURS D'EXÉCUTION
+
+Terminal 2 (Frontend) : npm install
+  └─ Installation des dépendances React
+  └─ ⏳ EN COURS...
+
+================================================================================
+
+✨ RÉSUMÉ
+
+✅ Backend démarré avec npm run dev
+✅ Serveur Node.js utilisé (plus de php artisan serve)
+✅ Frontend en cours d'installation
+✅ Prêt à développer!
+
+Attendez que le frontend soit prêt, puis allez sur http://localhost:3000!
+
+================================================================================

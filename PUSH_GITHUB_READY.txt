@@ -1,0 +1,152 @@
+================================================================================
+                    POUSSER SUR GITHUB - PRÊT
+================================================================================
+
+PROJECT: Portfolio QHSE - Frontend React
+STATUS: ✅ PRÊT À POUSSER
+DATE: 2024
+VERSION: 1.0.0
+
+================================================================================
+                        COMMANDES À EXÉCUTER
+================================================================================
+
+OUVREZ POWERSHELL OU CMD ET EXÉCUTEZ:
+
+cd D:\PROJET\bruno-hse\frontend
+git add .
+git commit -m "Update frontend - Add Vercel configuration and documentation"
+git push -u origin main
+
+================================================================================
+                        SCRIPTS DISPONIBLES
+================================================================================
+
+OPTION 1: Script Batch Simple
+→ Double-cliquez sur: push-github-simple.bat
+
+OPTION 2: Commandes Manuelles
+→ Lire: PUSH_GITHUB_MANUAL.md
+→ Copier-coller les commandes
+
+OPTION 3: Script PowerShell
+→ Exécutez: powershell -ExecutionPolicy Bypass -File push-github.ps1
+
+================================================================================
+                        ÉTAPES RAPIDES
+================================================================================
+
+1. OUVRIR POWERSHELL/CMD
+   → Win + R
+   → Tapez: powershell ou cmd
+   → Appuyez sur Entrée
+
+2. ALLER DANS LE DOSSIER FRONTEND
+   → cd D:\PROJET\bruno-hse\frontend
+
+3. EXÉCUTER LES COMMANDES
+   → git add .
+   → git commit -m "Update frontend - Add Vercel configuration and documentation"
+   → git push -u origin main
+
+4. VÉRIFIER SUR GITHUB
+   → Allez sur: https://github.com/EDITCHAO/qhse-expert-bruno
+   → Vérifiez que tous les fichiers sont présents
+
+================================================================================
+                        CONFIGURATION
+================================================================================
+
+Repository: EDITCHAO/qhse-expert-bruno
+URL: https://github.com/EDITCHAO/qhse-expert-bruno.git
+Branch: main
+Remote: origin
+
+================================================================================
+                        FICHIERS À POUSSER
+================================================================================
+
+TOTAL: 50+ fichiers
+
+PRINCIPAUX:
+✅ frontend/src/ - Code source
+✅ frontend/public/ - Fichiers statiques
+✅ frontend/package.json - Dépendances
+✅ frontend/vercel.json - Configuration Vercel
+✅ frontend/.env.production - Variables de production
+✅ frontend/.vercelignore - Fichiers à ignorer
+✅ frontend/README.md - Documentation
+
+================================================================================
+                        RÉSULTAT ATTENDU
+================================================================================
+
+Après exécution, vous devriez voir:
+
+Enumerating objects: XX, done.
+Counting objects: 100% (XX/XX), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (XX/XX), done.
+Writing objects: 100% (XX/XX), XXXX bytes, done.
+Total XX (delta XX), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (XX/XX), done.
+To https://github.com/EDITCHAO/qhse-expert-bruno.git
+ * [new branch]      main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+
+================================================================================
+                        VÉRIFICATION
+================================================================================
+
+1. Allez sur: https://github.com/EDITCHAO/qhse-expert-bruno
+2. Vérifiez que tous les fichiers sont présents
+3. Vérifiez que le README s'affiche
+4. Vérifiez que les commits sont visibles
+
+================================================================================
+                        DOCUMENTATION
+================================================================================
+
+POUR POUSSER MANUELLEMENT:
+→ PUSH_GITHUB_MANUAL.md
+
+POUR VÉRIFIER LE STATUT:
+→ GITHUB_STATUS_CHECK.md
+
+POUR DÉPLOYER SUR VERCEL:
+→ VERCEL_DEPLOYMENT_FRONTEND.md
+
+================================================================================
+                        PROCHAINES ÉTAPES
+================================================================================
+
+1. MAINTENANT: Exécuter les commandes Git
+2. APRÈS: Vérifier sur GitHub
+3. PUIS: Déployer sur Vercel
+4. ENFIN: Tester le site
+
+================================================================================
+                        SUPPORT
+================================================================================
+
+DOCUMENTATION:
+- Git: https://git-scm.com/doc
+- GitHub: https://docs.github.com
+- Vercel: https://vercel.com/docs
+
+FICHIERS LOCAUX:
+- PUSH_GITHUB_MANUAL.md
+- GITHUB_STATUS_CHECK.md
+- push-github-simple.bat
+- push-github.ps1
+
+================================================================================
+
+Status: ✅ PRÊT À POUSSER
+Date: 2024
+Version: 1.0.0
+Repository: EDITCHAO/qhse-expert-bruno
+
+EXÉCUTEZ LES COMMANDES MAINTENANT ! 🚀
+
+================================================================================

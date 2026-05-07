@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'QHSEPRO - Atayi Bruno - Expert QHSE')
+@section('title', 'QHSEPRO - Etey Bruno - Expert QHSE')
 
 @section('content')
 <nav class="navbar">
@@ -29,7 +29,7 @@
                 <span class="badge-text">QUALITÉ • HYGIÈNE • SÉCURITÉ • ENVIRONNEMENT</span>
             </div>
             <h1 class="hero-name">
-                <span class="first-name">Atayi</span> 
+                <span class="first-name">Etey</span> 
                 <span class="last-name">BRUNO</span>
             </h1>
             <p class="hero-subtitle">

@@ -57,12 +57,12 @@ const About = () => {
               <div className="profile-image">
                 <img 
                   src={brunoImage} 
-                  alt="Ateyi BRUNO"
+                  alt="Etey BRUNO"
                   className="profile-photo"
                 />
               </div>
               <div className="profile-info">
-                <h3>Ateyi BRUNO</h3>
+                <h3>Etey BRUNO</h3>
                 <p>Responsable QHSE</p>
               </div>
             </div>

@@ -164,7 +164,7 @@ certifications: [
 ```javascript
 // src/config/siteConfig.js
 profile: {
-  name: 'Atayi BRUNO',
+  name: 'Etey BRUNO',
   title: 'Responsable QHSE...',
   description: '...',
   image: 'URL_IMAGE',

@@ -43,7 +43,7 @@
 │  QUI SUIS-JE                                            │
 │  À propos                                               │
 │                                                         │
-│  [Photo]              Atayi BRUNO                       │
+│  [Photo]              Etey BRUNO                        │
 │                       Responsable QHSE...              │
 │                       Description...                    │
 │                       🏆 ISO 45001 Certifié             │
@@ -56,7 +56,7 @@
 │                                                         │
 │  ┌──────────────────────────────────────────────────┐  │
 │  │ [Photo]                                          │  │
-│  │ Atayi BRUNO                                      │  │
+│  │ Etey BRUNO                                       │  │
 │  │ Responsable QHSE spécialisé en génie civil      │  │
 │  │ Description...                                   │  │
 │  │ 🏆 ISO 45001 Certifié                           │  │
@@ -309,7 +309,7 @@ PROFILE CARD
 │    │                │    │
 │    └────────────────┘    │
 │                          │
-│   Atayi BRUNO            │
+│   Etey BRUNO             │
 │   Responsable QHSE...    │
 │   Description...         │
 │   🏆 ISO 45001 Certifié  │

@@ -38,7 +38,7 @@ Par:
 ```javascript
 <img 
   src="/images/profile.jpg" 
-  alt="Atayi BRUNO"
+  alt="Etey BRUNO"
 />
 ```
 
@@ -59,7 +59,7 @@ Remplacez le placeholder par:
 ```javascript
 <img 
   src="https://votre-url-image.com/photo.jpg" 
-  alt="Atayi BRUNO"
+  alt="Etey BRUNO"
 />
 ```
 
@@ -87,7 +87,7 @@ Puis remplacez le placeholder par:
 ```javascript
 <img 
   src={profileImage} 
-  alt="Atayi BRUNO"
+  alt="Etey BRUNO"
 />
 ```
 
@@ -136,11 +136,11 @@ const About = () => {
           <div className="profile-image">
             <img 
               src="/images/profile.jpg"  {/* ← VOTRE IMAGE ICI */}
-              alt="Atayi BRUNO"
+              alt="Etey BRUNO"
             />
           </div>
           <div className="profile-info">
-            <h3>Atayi BRUNO</h3>
+            <h3>Etey BRUNO</h3>
             <p>Responsable QHSE</p>
           </div>
         </div>

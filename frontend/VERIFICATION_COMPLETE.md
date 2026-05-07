@@ -72,7 +72,7 @@
 ### About
 - [x] Section "À propos"
 - [x] Photo de profil (placeholder)
-- [x] Nom: Atayi BRUNO
+- [x] Nom: Etey BRUNO
 - [x] Titre et description
 - [x] Certifications ISO 45001 et ISO 14001
 - [x] Design responsive

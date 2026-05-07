@@ -10,6 +10,10 @@ const ContactForm = () => {
     message: ''
   });
 
+  const [loading, setLoading] = useState(false);
+  const [message, setMessage] = useState('');
+  const [messageType, setMessageType] = useState('');
+
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData(prev => ({
@@ -18,17 +22,50 @@ const ContactForm = () => {
     }));
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log('Form submitted:', formData);
-    // Réinitialiser le formulaire
-    setFormData({
-      name: '',
-      email: '',
-      phone: '',
-      subject: '',
-      message: ''
-    });
+    setLoading(true);
+    setMessage('');
+
+    try {
+      const response = await fetch('http://localhost:8000/api/contacts', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          nom: formData.name,
+          email: formData.email,
+          numero: formData.phone,
+          sujet: formData.subject,
+          message: formData.message
+        })
+      });
+
+      const data = await response.json();
+
+      if (response.ok) {
+        setMessage('✅ Message envoyé avec succès! Vous recevrez une confirmation par email.');
+        setMessageType('success');
+        // Réinitialiser le formulaire
+        setFormData({
+          name: '',
+          email: '',
+          phone: '',
+          subject: '',
+          message: ''
+        });
+      } else {
+        setMessage(`❌ Erreur: ${data.error || 'Une erreur est survenue'}`);
+        setMessageType('error');
+      }
+    } catch (error) {
+      console.error('Erreur:', error);
+      setMessage('❌ Erreur de connexion au serveur. Veuillez réessayer.');
+      setMessageType('error');
+    } finally {
+      setLoading(false);
+    }
   };
 
   return (
@@ -83,6 +120,12 @@ const ContactForm = () => {
           </div>
 
           <form className="contact-form-form" onSubmit={handleSubmit}>
+            {message && (
+              <div className={`form-message ${messageType}`}>
+                {message}
+              </div>
+            )}
+
             <div className="form-group">
               <input
                 type="text"
@@ -91,6 +134,7 @@ const ContactForm = () => {
                 value={formData.name}
                 onChange={handleChange}
                 required
+                disabled={loading}
               />
             </div>
 
@@ -102,6 +146,7 @@ const ContactForm = () => {
                 value={formData.email}
                 onChange={handleChange}
                 required
+                disabled={loading}
               />
             </div>
 
@@ -112,6 +157,7 @@ const ContactForm = () => {
                 placeholder="Votre téléphone"
                 value={formData.phone}
                 onChange={handleChange}
+                disabled={loading}
               />
             </div>
 
@@ -123,6 +169,7 @@ const ContactForm = () => {
                 value={formData.subject}
                 onChange={handleChange}
                 required
+                disabled={loading}
               />
             </div>
 
@@ -134,12 +181,13 @@ const ContactForm = () => {
                 value={formData.message}
                 onChange={handleChange}
                 required
+                disabled={loading}
               ></textarea>
             </div>
 
-            <button type="submit" className="submit-btn">
+            <button type="submit" className="submit-btn" disabled={loading}>
               <i className="fas fa-paper-plane"></i>
-              Envoyer le message
+              {loading ? 'Envoi en cours...' : 'Envoyer le message'}
             </button>
           </form>
         </div>

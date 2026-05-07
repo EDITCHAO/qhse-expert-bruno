@@ -40,7 +40,7 @@ J'ai créé un **site ultra-professionnel et complet** pour QHSEPRO!
 ┌─────────────────────────────────────────────────────────┐
 │ ABOUT PROFESSIONNEL                                     │
 │ À propos de moi          [Photo de profil]             │
-│ Description...           Atayi BRUNO                    │
+│ Description...           Etey BRUNO                     │
 │ 🏆 ISO 45001             Responsable QHSE              │
 │ 45+ | 3K+ | 12+ | 0                                    │
 └─────────────────────────────────────────────────────────┘

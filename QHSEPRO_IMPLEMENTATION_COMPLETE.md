@@ -32,7 +32,7 @@ J'ai reproduit **exactement** le design QHSEPRO fourni dans vos images avec tous
 ### 5. **About** ✅
 - Section "À propos"
 - Photo de profil (à ajouter)
-- Nom: Atayi BRUNO
+- Nom: Etey BRUNO
 - Titre et description
 - Certifications ISO 45001 et ISO 14001
 
@@ -267,7 +267,7 @@ frontend/
 ### Avant
 ```javascript
 profile: {
-  name: 'Atayi BRUNO',
+  name: 'Etey BRUNO',
   title: 'Responsable QHSE...',
   image: 'https://via.placeholder.com/...'
 }

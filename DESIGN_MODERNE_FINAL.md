@@ -38,7 +38,7 @@ J'ai créé un **design moderne et professionnel** pour QHSEPRO avec expertise.
 │ ABOUT PROFESSIONNEL                                     │
 │                                                         │
 │ À propos de moi          [Photo de profil]             │
-│ Description...           Atayi BRUNO                    │
+│ Description...           Etey BRUNO                     │
 │ 🏆 ISO 45001             Responsable QHSE              │
 │ 🏆 ISO 14001                                           │
 │ 🏆 NEBOSH IGC                                          │

@@ -1,0 +1,141 @@
+================================================================================
+                    COMMANDES GITHUB - FRONTEND
+================================================================================
+
+OBJECTIF: Pousser le code du frontend sur GitHub
+
+================================================================================
+                    ÉTAPE 1: INITIALISER GIT
+================================================================================
+
+Ouvrez PowerShell ou CMD et exécutez:
+
+cd frontend
+git init
+
+Résultat attendu:
+Initialized empty Git repository in D:\PROJET\bruno-hse\frontend\.git\
+
+================================================================================
+                    ÉTAPE 2: AJOUTER LES FICHIERS
+================================================================================
+
+git add .
+
+Résultat attendu:
+(Pas de message = succès)
+
+================================================================================
+                    ÉTAPE 3: CRÉER LE COMMIT
+================================================================================
+
+git commit -m "Initial commit - Portfolio QHSE Frontend React"
+
+Résultat attendu:
+[main (root-commit) xxxxxxx] Initial commit - Portfolio QHSE Frontend React
+ XX files changed, XXXX insertions(+)
+ create mode 100644 ...
+
+================================================================================
+                    ÉTAPE 4: AJOUTER LE REMOTE GITHUB
+================================================================================
+
+IMPORTANT: Remplacez YOUR_USERNAME par votre username GitHub
+
+git remote add origin https://github.com/YOUR_USERNAME/portfolio-qhse-frontend.git
+
+Exemple:
+git remote add origin https://github.com/john-doe/portfolio-qhse-frontend.git
+
+Résultat attendu:
+(Pas de message = succès)
+
+================================================================================
+                    ÉTAPE 5: POUSSER LE CODE
+================================================================================
+
+git branch -M main
+git push -u origin main
+
+Résultat attendu:
+Enumerating objects: XX, done.
+Counting objects: 100% (XX/XX), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (XX/XX), done.
+Writing objects: 100% (XX/XX), XXXX bytes, done.
+Total XX (delta XX), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (XX/XX), done.
+To https://github.com/YOUR_USERNAME/portfolio-qhse-frontend.git
+ * [new branch]      main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+
+================================================================================
+                    VÉRIFICATION
+================================================================================
+
+Vérifiez que le code est sur GitHub:
+
+1. Allez sur: https://github.com/YOUR_USERNAME/portfolio-qhse-frontend
+2. Vérifiez que tous les fichiers sont présents
+3. Vérifiez que le README s'affiche
+
+================================================================================
+                    COMMANDES UTILES
+================================================================================
+
+Voir le statut:
+git status
+
+Voir les fichiers modifiés:
+git diff
+
+Voir l'historique:
+git log
+
+Voir les remotes:
+git remote -v
+
+Créer une branche:
+git checkout -b feature/your-feature
+git push origin feature/your-feature
+
+Mettre à jour le code:
+git add .
+git commit -m "Your message"
+git push origin main
+
+================================================================================
+                    RÉSUMÉ DES COMMANDES
+================================================================================
+
+cd frontend
+git init
+git add .
+git commit -m "Initial commit - Portfolio QHSE Frontend React"
+git remote add origin https://github.com/YOUR_USERNAME/portfolio-qhse-frontend.git
+git branch -M main
+git push -u origin main
+
+================================================================================
+                    APRÈS GITHUB
+================================================================================
+
+Une fois le code sur GitHub:
+
+1. Allez sur Vercel: https://vercel.com
+2. Cliquez sur "New Project"
+3. Sélectionnez votre repository
+4. Configurez les variables d'environnement
+5. Déployez
+
+Lire: VERCEL_DEPLOYMENT_FRONTEND.md
+
+================================================================================
+
+Status: ✅ PRÊT À EXÉCUTER
+Date: 2024
+Version: 1.0.0
+
+EXÉCUTEZ CES COMMANDES MAINTENANT ! 🚀
+
+================================================================================

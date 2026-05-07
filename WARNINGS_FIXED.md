@@ -84,7 +84,7 @@ Voir `ADD_YOUR_PHOTO.md` pour les instructions complètes.
 2. Placez votre image: `profile.jpg`
 3. Modifiez `About.js`:
 ```javascript
-<img src="/images/profile.jpg" alt="Atayi BRUNO" />
+<img src="/images/profile.jpg" alt="Etey BRUNO" />
 ```
 
 **Option 2: URL externe**
@@ -92,7 +92,7 @@ Voir `ADD_YOUR_PHOTO.md` pour les instructions complètes.
 2. Copiez l'URL
 3. Modifiez `About.js`:
 ```javascript
-<img src="https://votre-url.com/photo.jpg" alt="Atayi BRUNO" />
+<img src="https://votre-url.com/photo.jpg" alt="Etey BRUNO" />
 ```
 
 ## 🚀 Prochaines étapes

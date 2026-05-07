@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Dependencies
 /node_modules
 /.pnp
@@ -31,3 +32,28 @@ yarn-error.log*
 
 # OS
 Thumbs.db
+=======
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+.env
+.env.backup
+.env.local
+.env.*.local
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+/.idea
+/.vscode
+.DS_Store
+*.log
+.vercel
+.vercel_build_output
+dist/
+build/
+
+>>>>>>> 19a2af9b54dcbf61d70ba8d8a5a8dcdd27c81a25
